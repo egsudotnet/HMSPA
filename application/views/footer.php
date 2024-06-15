@@ -26,7 +26,7 @@
     <script src="<?php echo base_url(); ?>vendors/nprogress/nprogress.js"></script>
     <script src="<?php echo base_url(); ?>vendors/bootstrap-daterangepicker/daterangepicker.js"></script>
     <script src="<?php echo base_url(); ?>vendors/select2/dist/js/select2.min.js"></script>
-    <script src="<?php echo base_url(); ?>vendors/vue/vue-3-4-29.js"></script>
+    <!-- <script src="<?php echo base_url(); ?>vendors/vue/vue.2.6.0.js"></script> -->
 
     <!-- jQuery File Upload Dependencies -->
     <script src="<?php echo base_url(); ?>uploader_assets/js/jquery.knob.js"></script>

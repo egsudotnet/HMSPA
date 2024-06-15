@@ -260,8 +260,8 @@ class Pathologys extends CI_Controller {
 			$this->body_Data['message'] = "A pathology has been added.";
 		}
 		$this->load->view('header');
-		// $this->load->view('pathologys/add',$this->body_Data);
-		$this->load->view('forms',$this->body_Data);
+		$this->load->view('pathologys/add',$this->body_Data);
+		// // // $this->load->view('forms',$this->body_Data);
 		$this->load->view('footer');
 	}
 
@@ -310,7 +310,8 @@ class Pathologys extends CI_Controller {
 			$this->body_Data['message'] = "A pathology has been updated.";
 		}
 		$this->load->view('header');
-		$this->load->view('forms',$this->body_Data);
+		$this->load->view('pathologys/add',$this->body_Data);
+		// $this->load->view('forms',$this->body_Data);
 		$this->load->view('footer');
 	}
 	/*
@@ -418,7 +419,8 @@ class Pathologys extends CI_Controller {
 			redirect(base_url('pathologys/about/'.$id));
 		}
 		$this->load->view('header');
-		$this->load->view('forms',$this->body_Data);
+		$this->load->view('pathologys/add',$this->body_Data);
+		// $this->load->view('forms',$this->body_Data);
 		$this->load->view('footer');
 	}
 	private function isValidForSchedule()
