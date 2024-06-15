@@ -1,0 +1,1 @@
+- Upload foto ada 5, tapi yg d warnai itu 1 isian (ada foto & keteranganny), semua foto bisa > 1 (tambah, cari galeri / open camera, upload, isi keterangan kecuali yg foto klinis tanpa keterangan)

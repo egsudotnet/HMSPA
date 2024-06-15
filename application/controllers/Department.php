@@ -6,10 +6,14 @@ class Department extends CI_Controller {
 	function __construct()
 	{
 		parent::__construct();
+		
+				// // print_r($login_user);die;
+				// print_r($this->session);die;
+
 		if(!is_login()){
 			redirect(base_url('login'));
 		}
-		only_access(array("doctor","admin"));
+		// only_access(array("doctor","admin"));
 		$this->body_Data = array();
 		$this->body_Data['title'] = 'Department';
 		$this->load->model('Department_model');

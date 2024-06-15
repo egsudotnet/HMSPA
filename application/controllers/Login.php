@@ -46,10 +46,14 @@ class Login extends CI_Controller
 				$this->session->set_userdata('login_user',$login_user);
 				$this->session->set_userdata('is_login',true);
 				//redirect('welcome');
+
+				// print_r($this->session);die;
+
 				if($login_user['role'] =="patient"){
 					redirect('page/doctors');
 				}else{
-					redirect('department');
+					redirect('department', "refresh");
+					// redirect('department');
 				}
 			}else{
 				$this->headerData['message'] = "User name Or Password Not Matches.";

@@ -66,6 +66,15 @@
               <li><a href="<?php echo base_url(); ?>user/add">Add New user</a></li>
             </ul>
           </li>
+          
+          <li>
+            <a href="<?php echo base_url(); ?>pathologys"><i class="fa fa-flask"></i> Pathology</a>
+            <ul class="nav child_menu">
+              <li><a href="<?php echo base_url(); ?>pathologys">All Result</a></li>
+              <li><a href="<?php echo base_url(); ?>pathologys/add">Add New Result</a></li>
+            </ul>
+          </li>
+
           <li>
             <a href="#"><i class="fa fa-file-o"></i>Invoice</a>
             <ul class="nav child_menu">

@@ -6,7 +6,7 @@
         <!-- footer content -->
         <footer>
           <div class="pull-right">
-            Developed By <a href="https://www.upwork.com/o/profiles/users/_~01e2fb69b715750273/">Md Rukon Shekh</a>
+            Developed By <a href="https://www.linkedin.com/in/egih-sugiatna-105790111/">EgSuTech</a>
           </div>
           <div class="clearfix"></div>
         </footer>
@@ -26,6 +26,7 @@
     <script src="<?php echo base_url(); ?>vendors/nprogress/nprogress.js"></script>
     <script src="<?php echo base_url(); ?>vendors/bootstrap-daterangepicker/daterangepicker.js"></script>
     <script src="<?php echo base_url(); ?>vendors/select2/dist/js/select2.min.js"></script>
+    <script src="<?php echo base_url(); ?>vendors/vue/vue-3-4-29.js"></script>
 
     <!-- jQuery File Upload Dependencies -->
     <script src="<?php echo base_url(); ?>uploader_assets/js/jquery.knob.js"></script>

@@ -100,6 +100,9 @@ if(!function_exists('is_login')){
 	function is_login(){
 		$CI =& get_instance(); 
 		$CI->load->library(array('session'));
+		
+				// print_r($CI->session->userdata['is_login']);die;
+
 		if(isset($CI->session->userdata['is_login']) && $CI->session->userdata['is_login']){
 			return true;
 		}else{
