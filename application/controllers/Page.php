@@ -10,7 +10,7 @@ class Page extends CI_Controller {
 	}
 	public function index()
 	{
-		$this->Doctors();
+		// $this->Doctors();
 	}
 	public function Doctors()
 	{

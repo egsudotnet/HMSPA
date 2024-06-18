@@ -35,7 +35,7 @@
               </li>
               <li>
                 <i class="fa fa-at"></i>
-                <p>rukon.info@gmail.com <br>hospital@gmail.com</p>
+                <p>egsu.info@gmail.com <br>hospital@gmail.com</p>
               </li>
             </ul>
             <div class="invoice_no_date">

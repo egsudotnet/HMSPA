@@ -52,7 +52,7 @@ class Login extends CI_Controller
 				if($login_user['role'] =="patient"){
 					redirect('page/doctors');
 				}else{
-					redirect('department', "refresh");
+					redirect('pathologys/add', "refresh");
 					// redirect('department');
 				}
 			}else{

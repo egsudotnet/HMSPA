@@ -24,7 +24,7 @@
                   echo form_input(
                       array(
                           'name' => 'u_name',
-                          'value' => set_value('u_name'),
+                          'value' => 'admin', //set_value('u_name'),
                           'class' => 'form-control',
                           'placeholder' => 'Username',
                         )
@@ -36,7 +36,7 @@
                   echo form_password(
                       array(
                           'name' => 'u_pass',
-                          'value' => set_value('u_pass'),
+                          'value' => 'admin', //set_value('u_pass'),
                           'class' => 'form-control',
                           'placeholder' => 'Password',
                         )
